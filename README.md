@@ -43,6 +43,13 @@ animation-youtube-analysis/
 - "Indie animation" content tends to have higher engagement ratios.
 - There is a tradeoff between mass-view content and high-engagement content.
 
+### Visualizations
+![Top Views](visuals/top_views.png)
+
+![Engagement Distribution](visuals/engagement_distribution.png)
+
+![Views by Content Type](visuals/views_by_type.png)
+
 ---
 
 ## Title & Content Strategy Analysis
