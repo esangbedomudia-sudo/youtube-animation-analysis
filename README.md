@@ -66,3 +66,18 @@ animation-youtube-analysis/
 ├── src/
 ├── visuals/
 └── README.md
+
+
+
+
+## Title & Content Strategy Analysis 
+
+This project analyzes the language used in YouTube animation video titles to understand how specific words relate to video performance.
+
+### Key Findings
+- Titles containing mass-audience keywords such as "kids", "nursery", and "rhymes" are associated with significantly higher average views.
+- General animation terms (e.g., "animated", "short film") show moderate performance.
+- Suggests a divide between broad-consumption content and niche storytelling content.
+
+### Visualization
+![Title Word Performance](visuals/title_word_performance.png)
