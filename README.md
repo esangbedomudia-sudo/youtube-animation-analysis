@@ -1,66 +1,152 @@
-# YouTube Animation Content Analysis
+# YouTube Animation Analytics Portfolio
 
 ## Overview
-This project analyzes YouTube animation content to identify patterns in video performance, engagement, and content strategy.
 
-The goal is to understand what types of animation content generate the most views versus the most audience engagement.
-
----
-
-## Data Collection
-- Data was collected using the YouTube Data API.
-- Multiple search queries were used:
-  - animation short film
-  - animated short
-  - indie animation
-  - cartoon short film
-  - 2d animation short
-  - animated music video
+This repository contains four related data analytics projects built around a YouTube animation dataset. Together, these projects demonstrate the complete analytics workflow—from collecting data with the YouTube Data API to analyzing it with Python and SQL.
 
 ---
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- YouTube Data API
+# Project 1 — Data Collection
+
+## Objective
+
+Collect YouTube animation data using the YouTube Data API and prepare it for analysis.
+
+### Skills Demonstrated
+
+* Python
+* YouTube Data API
+* Data Collection
+* Data Cleaning
+* Pandas
+* CSV Export
+
+### Contents
+
+* `youtube_project.py`
+* Raw dataset
+* Cleaned dataset
+* Expanded dataset
 
 ---
 
-## Project Structure
-animation-youtube-analysis/
-├── data/
-├── src/
-├── visuals/
-└── README.md
+# Project 2 — Performance Analytics
 
----
+## Objective
 
-## YouTube Animation Content Analysis
+Analyze overall video performance to identify trends in views, engagement, and animation categories.
 
-### Key Findings
-- "Cartoon short film" content tends to receive the highest views.
-- "Indie animation" content tends to have higher engagement ratios.
-- There is a tradeoff between mass-view content and high-engagement content.
+### Skills Demonstrated
+
+* Python
+* Pandas
+* Data Analysis
+* Matplotlib
+* Data Visualization
+
+### Analysis Includes
+
+* Top-performing videos
+* Average views by category
+* Engagement analysis
+* Yearly trends
+* Monthly trends
 
 ### Visualizations
-![Top Views](visuals/top_views.png)
 
-![Engagement Distribution](visuals/engagement_distribution.png)
-
-![Views by Content Type](visuals/views_by_type.png)
+* Top 10 Animation Videos by Views
+* Distribution of Engagement Ratio
+* Average Views by Content Type
 
 ---
 
-## Title & Content Strategy Analysis
+# Project 3 — Title Strategy Analysis
 
-### Overview
-This project analyzes the language used in YouTube animation video titles to understand how specific words relate to video performance.
+## Objective
 
-### Key Findings
-- Titles containing mass-audience keywords such as "kids", "nursery", and "rhymes" are associated with significantly higher average views.
-- General animation terms (e.g., "animated", "short film") show moderate performance.
-- Suggests a divide between broad-consumption content and niche storytelling content.
+Analyze the language used in video titles to understand how keywords relate to video performance.
+
+### Skills Demonstrated
+
+* Python
+* Text Processing
+* Regular Expressions
+* Data Analysis
+* Matplotlib
+
+### Analysis Includes
+
+* Word frequency analysis
+* Average views by keyword
+* High-performing title words
 
 ### Visualization
-![Title Word Performance](visuals/title_word_performance.png)
+
+* Top Words by Average Views
+
+---
+
+# Project 4 — SQL Analytics
+
+## Objective
+
+Load the dataset into MySQL and perform analytical queries to uncover performance insights.
+
+### Skills Demonstrated
+
+* SQL
+* MySQL
+* GROUP BY
+* HAVING
+* Aggregate Functions
+* CASE Statements
+* Window Functions
+* ROW_NUMBER()
+* RANK()
+* Subqueries
+* Joins
+
+### Analysis Includes
+
+* Dataset exploration
+* Category performance
+* Video performance
+* Channel performance
+* Ranking analysis
+
+---
+
+# Technologies Used
+
+* Python
+* SQL (MySQL)
+* Pandas
+* Matplotlib
+* YouTube Data API
+* Git
+* GitHub
+* Visual Studio Code
+* MySQL Workbench
+
+---
+
+# Repository Structure
+
+```text
+youtube-animation-analysis
+│
+├── Project_1_Data_Collection
+├── Project_2_Performance_Analytics
+├── Project_3_Title_Strategy_Analysis
+└── Project_4_SQL_Analytics
+```
+
+---
+
+# Author
+
+**Ose Esangbedo**
+
+Mathematics Graduate | Data Analytics | Python | SQL | Data Visualization | Machine Learning (In Progress)
+
+This repository is part of my professional data analytics portfolio and documents my progression from data collection to analytics and SQL.
