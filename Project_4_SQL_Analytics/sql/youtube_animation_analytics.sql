@@ -1,6 +1,6 @@
 /*
 =========================================================
-Project 3: YouTube Animation Analytics
+Project 4: YouTube Animation SQL Analytics
 
 Author: Ose Esangbedo
 
